@@ -26,7 +26,6 @@ Edit `css/app.unminified.css`, then rebuild `css/app.css` with
 [clean-css-cli](https://github.com/clean-css/clean-css-cli):
 
 ```sh
-cd static
 npx --yes clean-css-cli@5 -o css/app.css css/app.unminified.css
 ```
 
