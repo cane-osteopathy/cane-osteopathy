@@ -9,17 +9,10 @@ Run an HTTP server from this directory so that the pretty URLs
 (`about/`, `treatments/`, etc.) resolve to their `index.html` files:
 
 ```sh
-cd static
 python3 -m http.server 8000
 ```
 
 Then open <http://localhost:8000>.
-
-Alternatively, from the repository root:
-
-```sh
-python3 -m http.server 8000 -d static
-```
 
 Do not open `index.html` directly with `file://`; the directory URLs will not
 work without an HTTP server.
